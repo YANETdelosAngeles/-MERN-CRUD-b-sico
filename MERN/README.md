@@ -1,12 +1,12 @@
 # MERN-Stack-CRUD
 
-|
-|
---- directorio: `cliente`
-        |
-        |
-        directorio: `node_modules`
-        directorio: `public`
+
+###	directorio: `cliente`
+	directorio: `node_modules`
+		  |
+		  |
+		  carpetas de dependencias
+	directorio: `public`
                   |
                   |
                   archivo:    `favicon.ico`
@@ -15,9 +15,7 @@
                   archivo:    `logo512.png`
                   archivo:    `manifest.json`
                   archivo:    `robots.txt`
-        |
-        |
-        directorio: `src`
+	directorio: `src`
                   |
                   |
                   directorio: `componentes`
@@ -71,36 +69,37 @@
         archivo:    `README.md`
 
 
---- directorio: `models`
+### directorio: `models`
         |
         |
         archivo:   `modeloPokemon.js`
---- directorio: `node_modules`
+### directorio: `node_modules`
         |
         |
-
---- directorio: `rutas`
+	carpetas de dependencias
+### directorio: `rutas`
         |
         |
         archivo:  `pokemon.js`
---- archivo:    `conexion.js`
---- archivo:    `package-lock.json`
---- archivo:    `package.json`
---- archivo:    `README.md`
---- archivo:    `server.js`
+#### archivo:    `conexion.js`
+#### archivo:    `package-lock.json`
+#### archivo:    `package.json`
+#### archivo:    `README.md`
+#### archivo:    `server.js`
 
 
 
+# ¿Como iniciar el proyecto?
 
 Iniciar el server local con 
   
-  ### nodemon server.js
+  ### `nodemon server.js`
 
   se ejecuta desde la raiz, donde se encuentra el archivo server.js
     
 Iniciar proyecto react front-end con
 
-  ### npm start
+  ### `npm start`
 
   se ejecuta dentro de la carpeta cliente 
 
@@ -115,21 +114,21 @@ la puerta de enlace por defecto del server es localhost:5000
 
 las dependencias por parte del servidor son::::
 
-  ### npm init  
-  ### npm install express
-  ### npm nodmeon -g
-  ### npm install mongoose
-  ### npm install body-parser
-  ### npm install cors --save
-  ### npm morgan
+  ### `npm init`  
+  ### `npm install express`
+  ### `npm nodmeon -g`
+  ### `npm install mongoose`
+  ### `npm install body-parser`
+  ### `npm install cors --save`
+  ### `npm morgan`
 
 las dependencias de la carpeta cliente que es el frontend  son::::
 
-  ### npm install uniqid
-  ### npm install react-router-dom
-  ### npm install axios
+  ### `npm install uniqid`
+  ### `npm install react-router-dom`
+  ### `npm install axios`
 
   si quieren descargar el proyecto completo accedan al siguiente enlace
-  https://drive.google.com/drive/folders/12BZnFS4MKRy56Uth2kIQv7OxBcVDA3ZA?usp=sharing
+ ( https://drive.google.com/drive/folders/12BZnFS4MKRy56Uth2kIQv7OxBcVDA3ZA?usp=sharing )
 
 ## editado 10/07/2022
