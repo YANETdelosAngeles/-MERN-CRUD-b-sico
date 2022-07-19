@@ -1,4 +1,11 @@
-# MERN-Stack-CRUD
+# SERVER
+### este repositorio corresponde al server de un MERN, la parte del cliente se encuentra en 
+	https://github.com/YANETdelosAngeles/cliente
+	
+### La estructura debe se la siguiente:
+
+cliente: correponde al frontend
+### todo lo que `NO` este dentro de la carpeta `cliente` pertenece al servidor 
 
 
 ###	directorio: `cliente`
@@ -112,7 +119,8 @@ La puerta de enlace por defecto de react es localhost:3000
 
 la puerta de enlace por defecto del server es localhost:5000
 
-las dependencias por parte del servidor son::::
+* ## Para ejecutar la parte del servidor se debe asegurar de contar con las siguientes dependencias, estas deben estar en el archivo package.json y la carpeta `node_modules` 
+### (se escribe como debe instalarse en caso de ser necesario)
 
   ### `npm init`  
   ### `npm install express`
@@ -122,13 +130,14 @@ las dependencias por parte del servidor son::::
   ### `npm install cors --save`
   ### `npm morgan`
 
-las dependencias de la carpeta cliente que es el frontend  son::::
+* ## Para ejecutar el lado del cliente se debe contar con las siguientes dependencias, estas deben estar en el archivo package.json y la carpeta `cliente/node_modules`
+### (se escribe como debe instalarse en caso de ser necesario)
 
   ### `npm install uniqid`
   ### `npm install react-router-dom`
   ### `npm install axios`
 
-  si quieren descargar el proyecto completo accedan al siguiente enlace
+ # si quieren descargar el proyecto completo accedan al siguiente enlace
  ( https://drive.google.com/drive/folders/12BZnFS4MKRy56Uth2kIQv7OxBcVDA3ZA?usp=sharing )
 
 ## editado 10/07/2022
